@@ -53,5 +53,5 @@ Module.symvers
 Mkfile.old
 dkms.conf
 
-.objects-a
-bin-a
+.objects/
+bin/
