@@ -30,13 +30,14 @@
 # remove libaries you do not need.
 #---------------------------------------------------------------------
 
-# *** ENTER THE TARGET NAME HERE ***
-TARGET      = crane_x7_test
-
 # important directories used by assorted rules and other variables
 DIR_DXL    = ../../../DynamixelSDK/c
 DIR_OBJS   = .objects
 DIR_COM    = ../common
+DIR_BIN	   = ../bin
+
+# *** ENTER THE TARGET NAME HERE ***
+TARGET      = $(DIR_BIN)/crane_x7_test
 
 # compiler options
 CC          = gcc
@@ -79,6 +80,7 @@ clean:
 
 make_directory:
 	mkdir -p $(DIR_OBJS)/
+	mkdir -p $(DIR_BIN)/
 
 $(DIR_OBJS)/%.o: ../%.c
 	$(CC) $(CCFLAGS) -c $? -o $@

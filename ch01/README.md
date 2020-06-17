@@ -17,7 +17,7 @@ $ cd ~
 $ git clone https://github.com/rt-net/robotics_from_scratch.git
 $ cd ~/robotics_from_scratch/ch01/build
 $ make
-$ ./crane_x7_test
+$ ../bin/crane_x7_test
 ```
 
 ## 実行結果
