@@ -6,13 +6,12 @@
 ```
 $ cd ~
 $ git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
-$ cd ~/DynamixelSDK/c++/build/linux64
+$ cd ~/DynamixelSDK/c/build/linux64
 $ make
 $ sudo make install
 ```
 
 ## ビルドと実行
-
 ```
 $ cd ~
 $ git clone https://github.com/rt-net/robotics_from_scratch.git
@@ -20,3 +19,6 @@ $ cd ~/robotics_from_scratch/ch01/build
 $ make
 $ ./crane_x7_test
 ```
+
+## 実行結果
+[![ch1_video](http://img.youtube.com/vi/FR43A9xH32w/sddefault.jpg)](https://www.youtube.com/watch?v=FR43A9xH32w)
