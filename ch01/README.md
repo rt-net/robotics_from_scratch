@@ -13,6 +13,7 @@ $ sudo make install
 ## ビルドと実行
 
 ```
+$ cd ~
 $ git clone https://github.com/rt-net/robotics_from_scratch.git
 $ cd ~/robotics_from_scratch/ch01/build
 $ make
