@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/kenjiinukai/robotics_from_scratch.svg?branch=master)](https://travis-ci.org/kenjiinukai/robotics_from_scratch)
+[![Build Status](https://travis-ci.org/rt-net/robotics_from_scratch.svg?branch=master)](https://travis-ci.org/rt-net/robotics_from_scratch)
 
 # robotics_from_scratch
 
 書籍「[実践ロボット制御](https://www.ohmsha.co.jp/book/9784274224300/)」の基礎アルゴリズムを、[CRANE-X7](https://rt-net.jp/products/crane-x7/)を題材にして実装したコード集です。
-[こちらのサイト](https://rt-net.jp/humanoid/)のブログ記事で使用するコードがまとめられています。
+[こちらのサイト](https://rt-net.jp/humanoid/archives/category/developer/robotics-from-scratch)のブログ記事で使用するコードがまとめられています。
 
 ## ファイル構成
 
