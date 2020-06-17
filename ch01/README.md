@@ -20,5 +20,5 @@ $ make
 $ ../bin/crane_x7_test
 ```
 
-## 実行結果
+## 実行結果（YouTube Video）
 [![ch1_video](http://img.youtube.com/vi/FR43A9xH32w/sddefault.jpg)](https://www.youtube.com/watch?v=FR43A9xH32w)
