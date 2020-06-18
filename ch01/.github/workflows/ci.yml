@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  push:
+    paths-ignore:
+    - '**.md'
+  pull_request:
+    paths-ignore:
+    - '**.md'
+
+jobs:
+  job1:
+    name: BuildCheck
+    runs-on: ubuntu-latest
+    steps:
+      - name: Install Dynamixel SDK
+        run: |
+          git clone https://github.com/ROBOTIS-GIT/DynamixelSDK.git
+          cd DynamixelSDK/c/build/linux64
+          make
+          sudo make install
+      - uses: actions/checkout@v2
+      - name: Build Ch01
+        run: |
+          cd ch01/build
+          make
