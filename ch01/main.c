@@ -2,7 +2,8 @@
  * @file main.c
  * @brief servo test
  * @author RT Corporation
- * @date 2020/06/15
+ * @date 2019-2020
+ * @copyright License: Apache License, Version 2.0
  */
 // Copyright 2020 RT Corporation
 //

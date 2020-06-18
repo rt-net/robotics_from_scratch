@@ -2,7 +2,8 @@
  * @file matrix.h
  * @brief bare minimum matrix library
  * @author RT Corporation
- * @date 2019/03/22
+ * @date 2019-2020
+ * @copyright License: Apache License, Version 2.0
  */
 // Copyright 2019 RT Corporation
 //
