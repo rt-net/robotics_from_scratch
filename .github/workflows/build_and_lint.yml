@@ -33,7 +33,7 @@ jobs:
       - name: Install cpplint
         run: |
           python -m pip install --upgrade pip
-          pip --user install cpplint
+          pip install --user cpplint
       - uses: actions/checkout@v2
       - name: Lint with cpplint
         run: |
