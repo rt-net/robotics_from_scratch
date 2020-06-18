@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/rt-net/robotics_from_scratch.svg?branch=master)](https://travis-ci.org/rt-net/robotics_from_scratch)
+[![build_and_lint](https://github.com/rt-net/robotics_from_scratch/workflows/BuildAndLint/badge.svg?branch=master)](https://github.com/rt-net/robotics_from_scratch/actions?query=workflow%3ABuildAndLint+branch%3Amaster)
 
 # robotics_from_scratch
 
