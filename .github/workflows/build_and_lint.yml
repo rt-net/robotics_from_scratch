@@ -30,11 +30,9 @@ jobs:
     needs: [build]
     runs-on: ubuntu-latest
     steps:
-      - name: Install cpplint
-        run: |
-          python -m pip install --upgrade pip
-          pip install --user cpplint
+      - uses: actions/setup-python@v2
+      - run: pip install cpplint
       - uses: actions/checkout@v2
       - name: Lint with cpplint
         run: |
-          cpplint --filter=-whitespace,-build `find . -name "*.[ch]"`
+          cpplint --filter=-whitespace,-build,-readability --recursive .
