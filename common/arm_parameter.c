@@ -1,3 +1,9 @@
+/**
+ * @file matrix.c
+ * @brief bare minimum matrix library
+ * @author RT Corporation
+ * @date 2019/03/23
+ */
 // Copyright 2019 RT Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
@@ -11,13 +17,6 @@
 // WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 // See the License for the specific language governing permissions and
 // limitations under the License.
-
-/**
- * @file matrix.c
- * @brief bare minimum matrix library
- * @author RT Corporation
- * @date 2019/03/23
- */
 
 #include "arm_parameter.h"
 
