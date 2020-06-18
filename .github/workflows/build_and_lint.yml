@@ -9,7 +9,7 @@ on:
     - '**.md'
 
 jobs:
-  job1:
+  build:
     name: BuildCheck
     runs-on: ubuntu-latest
     steps:
@@ -24,3 +24,15 @@ jobs:
       - name: Build files
         run: |
           for a in `find . -name Makefile`;do cd `dirname $a` && make && cd -; done
+
+  lint:
+    name: Lint
+    needs: [build]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/setup-python@v2
+      - run: pip install cpplint
+      - uses: actions/checkout@v2
+      - name: Lint with cpplint
+        run: |
+          cpplint --filter=-whitespace,-build,-readability --recursive .
