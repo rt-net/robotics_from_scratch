@@ -2,7 +2,7 @@
  * @file crane_x7_comm.c
  * @brief Wrapper functions of DynamixelSDK (for communicating with the CRANE-X7)
  * @author RT Corporation
- * @date 2020
+ * @date 2019-2020
  * @copyright License: Apache License, Version 2.0
  */
 // Copyright 2020 RT Corporation
