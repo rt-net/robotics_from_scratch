@@ -21,7 +21,6 @@ jobs:
           make
           sudo make install
       - uses: actions/checkout@v2
-      - name: Build Ch01
+      - name: Build files
         run: |
-          cd ch01/build
-          make
+          for a in `find . -name Makefile`;do cd `dirname $a` && make && cd -; done
