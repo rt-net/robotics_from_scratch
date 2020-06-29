@@ -10,6 +10,7 @@
 |フォルダ名 |説明                         |
 |:--        |:--                          |
 |ch01       |[第一回の記事]((https://rt-net.jp/humanoid/archives/2328))で使用するコード |
+|ch02       |[第二回の記事]((https://rt-net.jp/humanoid/archives/2450))で使用するコード |
 |common     |共通で使用するソースコード   |
 
 
