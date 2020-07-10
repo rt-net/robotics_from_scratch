@@ -21,4 +21,4 @@ $ ../bin/crane_x7_test
 ```
 
 ## 実行結果（YouTube Video）
-[![ch1_video](http://img.youtube.com/vi/hBHpCbw5DqI/sddefault.jpg)](https://youtu.be/hBHpCbw5DqI)
+[![ch2_video](http://img.youtube.com/vi/hBHpCbw5DqI/sddefault.jpg)](https://youtu.be/hBHpCbw5DqI)

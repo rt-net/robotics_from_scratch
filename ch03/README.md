@@ -1,6 +1,6 @@
 # robotics_from_scratch
 
-[第二回連載記事](https://rt-net.jp/humanoid/archives/2450)で使用するコードです。
+[第三回連載記事](https://rt-net.jp/humanoid/archives/2652)で使用するコードです。
 
 ## セットアップ方法
 ```
@@ -21,4 +21,4 @@ $ ../bin/crane_x7_test
 ```
 
 ## 実行結果（YouTube Video）
-[![ch1_video](http://img.youtube.com/vi/hBHpCbw5DqI/sddefault.jpg)](https://youtu.be/hBHpCbw5DqI)
+[![ch3_video](http://img.youtube.com/vi/U0sPtyIpY0s/sddefault.jpg)](https://youtu.be/U0sPtyIpY0s)
