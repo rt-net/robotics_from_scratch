@@ -525,7 +525,7 @@ int getCranex7JointState(double *angle_array, double *angular_velocity_array, do
   // convert dynamixel value to physical quantity
   for (int i = 0; i < JOINT_NUM; i++)
   {
-    angle_array[i] = dxlvalue2rad((double)(present_position[i] - home_angle_array[i]));
+    angle_array[i] = dxlvalue2rad((double)(present_position[i] - (int32_t)home_angle_array[i]));
     angular_velocity_array[i] = dxlvalue2angularvel((double)present_velocity[i]);
     if (i == XM540_W270_JOINT)
     {
