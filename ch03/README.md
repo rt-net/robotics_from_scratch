@@ -15,7 +15,7 @@ $ sudo make install
 ```
 $ cd ~
 $ git clone https://github.com/rt-net/robotics_from_scratch.git
-$ cd ~/robotics_from_scratch/ch02/build
+$ cd ~/robotics_from_scratch/ch03/build
 $ make
 $ ../bin/crane_x7_test
 ```
