@@ -25,12 +25,12 @@
 
 //時間管理用変数
 static struct timespec start_time = {0}, end_time = {0}, sleep_time = {0}, duration_time = {0};
-static long loop_time_nsec = 0;
+static int loop_time_nsec = 0;
 
 void initControlTimer(int control_cycle)
 {
     clock_gettime(CLOCK_MONOTONIC, &start_time);
-    loop_time_nsec = (long)((1.0 / control_cycle)*1e9);
+    loop_time_nsec = (int)((1.0 / control_cycle)*1e9);
 }
 
 void sleepForControlCycle(void)
