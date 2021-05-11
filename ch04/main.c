@@ -1,8 +1,8 @@
 /**
  * @file main.c
- * @brief servo test
+ * @brief joint trajectry planning for CRANE-X7
  * @author RT Corporation
- * @date 2019-2020
+ * @date 2019-2021
  * @copyright License: Apache License, Version 2.0
  */
 // Copyright 2020 RT Corporation
