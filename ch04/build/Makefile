@@ -63,6 +63,7 @@ SOURCES  = main.c  \
            $(DIR_COM)/crane_x7_comm.c \
            $(DIR_COM)/arm_parameter.c \
            $(DIR_COM)/matrix.c \
+           $(DIR_COM)/control_timer.c \
 		   myCX7_KDL_library.c \
 	       trajectry_planning.c \
 

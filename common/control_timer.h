@@ -1,4 +1,11 @@
-// Copyright 2020 RT Corporation
+/**
+ * @file control_timer.h
+ * @brief timer library for control cycle
+ * @author RT Corporation
+ * @date 2019-2021
+ * @copyright License: Apache License, Version 2.0
+ */
+// Copyright 2019 RT Corporation
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -12,14 +19,11 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+#ifndef CONTROL_TIMER_H_
+#define CONTROL_TIMER_H_
 
-#ifndef TRAJECTRY_PLANNING_H
-#define TRAJECTRY_PLANNING_H
-
-#include "../common/arm_parameter.h"
-
-#define MAX_LENGTH (10000) //軌道の配列要素数
-
-int trapezoidalTrajectoryJointSpace(double *, double *, double, double *, double, double (*)[JOINT_NUM], double (*)[JOINT_NUM], double (*)[JOINT_NUM]);
+//// Prototype declaration ////
+void initControlTimer(int);
+void sleepForControlCycle(void);
 
 #endif

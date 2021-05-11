@@ -1,6 +1,6 @@
 /**
- * @file matrix.c
- * @brief bare minimum matrix library
+ * @file arm_parameter.c
+ * @brief joint parameters of CRANE-X7
  * @author RT Corporation
  * @date 2019-2020
  * @copyright License: Apache License, Version 2.0
